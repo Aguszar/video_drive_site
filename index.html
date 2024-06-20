@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videos from Drive</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="video"></div>
+    <nav>
+       <a href="#">The Office</a>
+       <a href="parks.html">Parks and Rec</a>
+       <a href="#">The Boys</a>
+       <a href="#">ATLA</a>
+    </nav>
+
 </body>
 </html>
 
@@ -46,6 +53,6 @@
         "11pJHQp4VC1ghSW5sbgmo6CMaPDb2nCxy",
         ]
     ]
-
-    document.getElementById("video").innerHTML = '<iframe src="https://drive.google.com/file/d/'+video_ids[1][0]+'/preview" width="640" height="480" allow="fullscreen"></iframe>'
+    var cap = video_ids[1][0]
+//    document.getElementById("video").innerHTML = '<iframe src="https://drive.google.com/file/d/'+cap+'/preview" width="640" height="480" allow="fullscreen"></iframe>'
 </script>
