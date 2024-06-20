@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos from Drive</title>
+</head>
+<body>
+    <div id="video"></div>
+</body>
+</html>
+
+<script>
+    video_ids = [
+        ["14EXF0UXHDsxbhsvamUpKXyi8qRPqYm-3", 
+        "1Pjs20dSU4BFEd5Nam3HzXuT3sb0i1C77", 
+       "1QjK6BLTitURQoKcljPHS6c09eeYyOLYK",
+       "177hfQtkt2jLwpSXukaL04M7oCpWUW7RK",
+       "1XKUecSfcYBXnF109pPbfOMnLW0T8hvM1",
+       "1aSFJltEXcWFIMNhSWqFP7coNHxxqLwfr" 
+        ],
+
+        ["12M2ANjgr-BMlXkFFxQsnez2Z5CuMslBj",
+        "14RKjfOByFPBukPiM9goLjpZcTJlBSxao",
+        "1YSjKr4P1MfR98c9e4XxmGte-ZFgzmeka",
+        "15xcUrStkIY86nrQYYnKfTiIoszHQVn2d",
+        "1w-LIiQYP9XV_dh9FfcsYyQBRtqwrVap3",
+        "1Tfik_j4vI-3_mwet0tNqtIE81Bs0H21S",
+        "1Sr--xdEOB-yL0_BYFWfCF7SiIF-Vcocd",
+        "1IZa94MqQA3XKTjNPIVsLwA-9z30gii0r",
+        "1c9FgCsQhdkXL9KYEJLjz07h_0ytbRr2I",
+        "1gaKFsvY3XbcDVeYK9QyQEi0LuMmUuJSD",
+        "1yWIFeQltnYZxhDUzXSBorI5xRsAessmr",
+        "1U45Cc4TXnFZ10kaf7q-qMw3B43Ct6CH7",
+        "1qwXJimzIlb25pxsmGkt-tE9TJgLWkOKE",
+        "1Rt5z56LBCgPyO-eKtwiamm5CnqLngvIU",
+        "1miq6eRVltXovMs08FkpsFCqgnOe6kB2T",
+        "1WFtGaqWVm5_p63Gs3NgF1eRDip9Kjlpa",
+        "1INVECchbrfK_1TzC4PIWcQQObKf4WSmr",
+        "11OERW6PpTQOJ-GoDWje5cxCbPGT4L-00",
+        "1e9U5dYlU3IbWSSZL48RkF_iydGhbrrQi",
+        "1yotpokZRwSb39WLjI6uoqMsuC1q2TYT7",
+        "1qytyhTTykyDfG5GET-loJmYR9Qx1J8VF",
+        "1PV3zFpDN30bSE-5sWaBH-lwutWQDaTj8",
+        "1WN7xvfs14S4ToQgrEH1ldTRXTpW7TyjB",
+        "11pJHQp4VC1ghSW5sbgmo6CMaPDb2nCxy",
+        ]
+    ]
+
+    document.getElementById("video").innerHTML = '<iframe src="https://drive.google.com/file/d/'+video_ids[1][0]+'/preview" width="640" height="480" allow="fullscreen"></iframe>'
+</script>
