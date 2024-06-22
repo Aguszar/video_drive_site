@@ -8,18 +8,26 @@
 </head>
 <body>
     <nav>
-       <a href="#">The Office</a>
-       <a href="parks.html">Parks and Rec</a>
-       <a href="#">The Boys</a>
-       <a href="#">ATLA</a>
+       <a href="#" onclick="set_serie(0)">The Office</a>
+       <a href="#" onclick="set_serie(1)">Parks and Rec</a>
+       <a href="#" onclick="set_serie(2)">The Boys</a>
+       <a href="#" onclick="set_serie(3)">ATLA</a>
     </nav>
-    
+    <h2></h2>
+    <div id="season"></div>
+    <div id="chapter"></div>
+    <div id="video"></div>
 </body>
 </html>
 
 <script>
+    serie  = null
+    season = null
+    chap   = null
+
     console.log(window.location.href)
-    video_ids = [
+    names = ["The Office", "Parks & Rec", "The Boys", "Avatar: The last airbender"]
+    parks = [
         ["14EXF0UXHDsxbhsvamUpKXyi8qRPqYm-3", 
         "1Pjs20dSU4BFEd5Nam3HzXuT3sb0i1C77", 
        "1QjK6BLTitURQoKcljPHS6c09eeYyOLYK",
@@ -54,6 +62,55 @@
         "11pJHQp4VC1ghSW5sbgmo6CMaPDb2nCxy",
         ]
     ]
-    var cap = video_ids[1][0]
-//    document.getElementById("video").innerHTML = '<iframe src="https://drive.google.com/file/d/'+cap+'/preview" width="640" height="480" allow="fullscreen"></iframe>'
-</script>
+    series = [null,parks]
+
+    function set_serie(s){
+        serie = s 
+        
+        season_div = document.getElementById("season")
+        chap_div = document.getElementById("chapter")
+        video_div = document.getElementById("video")
+        season_div.innerHTML = ""
+        chap_div.innerHTML = ""
+        video_div.innerHTML = ""
+        
+        season_div.innerHTML = "<h2>"+names[s]+"- Season</h2>"
+        serie_total = series[s].length
+        i = 1
+        while (i <= serie_total){
+            click = "set_season("+s+","+(i-1)+")" 
+            season_div.innerHTML += "<span onclick="+click+">"+i+"</span>"
+            i++
+        }
+    }
+
+    function set_season(s, t){
+        season = t
+        chap_div = document.getElementById("chapter")
+        video_div = document.getElementById("video")
+        chap_div.innerHTML = ""
+        video_div.innerHTML = ""
+
+        chap_div.innerHTML = "<br><h2>Chapters</h2>"
+        s = series[s]
+        season_tot = s[t].length
+        i = 1
+        while (i <= season_tot){
+            click = "set_video("+serie+","+season+","+(i-1)+")" 
+            chap_div.innerHTML += "<span onclick="+click+">"+i+"</span>"
+            i++
+        }
+    }
+
+    function set_video(s, t, c){
+        video_div = document.getElementById("video")
+        video_div.innerHTML = ""
+
+        video_div.innerHTML = "<h3>Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
+        var cap = series[s][t][c]
+        console.log(cap)
+
+        video_div.innerHTML += '<iframe src="https://drive.google.com/file/d/'+cap+'/preview" width="640" height="480" allow="fullscreen"></iframe>'
+
+    }
+    </script>
