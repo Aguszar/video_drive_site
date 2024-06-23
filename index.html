@@ -205,8 +205,9 @@
     function set_video(s, t, c){
         video_div = document.getElementById("video")
         video_div.innerHTML = ""
-        var cap = series[s][t][c] 
-        video_div.innerHTML = "<h3>Season "+(season+1)+" Chapter "+(c+1)+"</h3><br><a href='https://drive.google.com/file/d/"+cap+"/view'>video</a>"
+
+        video_div.innerHTML = "<h3>Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
+        var cap = series[s][t][c]
         
         video_div.innerHTML += '<iframe src="https://drive.google.com/file/d/'+cap+'/preview" width="640" height="480" allow="fullscreen"></iframe>'
 
