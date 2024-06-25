@@ -238,10 +238,12 @@
         video_div = document.getElementById("video")
         video_div.innerHTML = ""
 
-        video_div.innerHTML = "<h3>Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
         var cap = series[s][t][c]
+        link = 'https://drive.google.com/file/d/'+cap
+
+        video_div.innerHTML = "<h3>Season "+(season+1)+" Chapter "+(c+1)+"</h3><br><a href="+link+">go<a>"
         
-        video_div.innerHTML += '<iframe src="https://drive.google.com/file/d/'+cap+'/preview" allow="fullscreen"></iframe>'
+        video_div.innerHTML += '<iframe src="'+link+'/preview" allow="fullscreen"></iframe>'
 
     }
     </script>
