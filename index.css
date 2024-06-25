@@ -24,3 +24,10 @@ nav a:hover,span:hover {
     background-color:burlywood;
     cursor: pointer;
 }
+
+iframe{
+    width: 80%;
+    height: 56%;
+    min-height: 320px;
+
+}
