@@ -177,7 +177,26 @@
              "1tqnDdXerCfUWWlBmOQ5glR_sNVwG4El9",
              "1SUZiT8O_FKtw9ewVpwAooXtB1Ekr8B0L",
              "1yMXcxYiWL5YSYGqRHMqIzX3zjmA792Eo"
-             ],[]]
+             ],
+              [
+              "1LJjDwy9BTAByy6UWYR9i0uKHrfE920sn",
+              "1FUyv1mvmTjtAdp-vdJvd3NpGwSxVYauq",
+              "1L7rrBS1FVR0ViWHyQqHyLKbnLWvkmKsT",
+              "1lzu0tNQxnNxBfB8eNykW2jlPlGdDZF5A",
+              "14BAoL4mlUx0Sh6yaTWUXbKh7gvjh7441",
+              "1lDwUP-VoLGQ04ba4zPB96m21Fcie6daX",
+              "1h2zeBiTb8gBhGv_pR8a6K6Zl54Ct3HBO",
+              "1YhNGXZNJtEAtbP7g9rCd2HD-ansxwvGJ",
+              "1bqUOBO1KCfC7H10BhWs7KEf9eQNdlgSY",
+              "1GOkcDG2xEubteZh1L-SPRyQISo8L7Dm_",
+              "1FEk2PZEj81WC6CIjwZhvhfbHMWLDssZB",
+              "1GKLAmHxsr9G8JvXJGNp-Ta-pzjpgWzIH",
+              "1dh15uwInliSt_aZUGYJdQzclv0-9Z-1N",
+              "1RCAZTi2tH5ecxqjXsXuiwkTLOhCHKtZA",
+              "1hnmaqf4TlXtCPxiUN_kiEgd07ykNzL0g",
+              "1W3GvbKb6aytvamooRzhCJ56-DiBUmaZ3",              
+              ]
+            ]
     office = [[],[],[],[],[],[]]
     series = [office,parks, boys, avatar]
 
@@ -186,10 +205,8 @@
         
         season_div = document.getElementById("season")
         chap_div = document.getElementById("chapter")
-        video_div = document.getElementById("video")
         season_div.innerHTML = ""
         chap_div.innerHTML = ""
-        video_div.innerHTML = ""
         
         season_div.innerHTML = "<h2>"+names[s]+"- Season</h2>"
         serie_total = series[s].length
@@ -204,9 +221,7 @@
     function set_season(s, t){
         season = t
         chap_div = document.getElementById("chapter")
-        video_div = document.getElementById("video")
         chap_div.innerHTML = ""
-        video_div.innerHTML = ""
 
         chap_div.innerHTML = "<br><h2>Season "+(season+1)+": Chapters</h2>"
         s = series[s]
