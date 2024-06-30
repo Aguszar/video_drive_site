@@ -302,7 +302,7 @@
     function set_video(s, t, c){
         video_div = document.getElementById("video")
         video_div.innerHTML = ""
-        video_div.innerHTML = "<h3>"+name+"Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
+        video_div.innerHTML = "<h3>"+names[serie]+" Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
         var cap = series[s][t][c]
         if (cap[0] != "<"){
             link = 'https://drive.google.com/file/d/'+cap
