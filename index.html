@@ -12,6 +12,8 @@
        <span onclick="set_serie(1)">Parks and Rec</span>
        <span onclick="set_serie(2)">The Boys</span>
        <span onclick="set_serie(3)">ATLA</span>
+       <span onclick="set_season(4,0)">Movies</span>
+       
     </nav>
     <h2></h2>
     <div id="season"></div>
@@ -263,8 +265,13 @@
               ]
             ]
     office = [[],[],[],[],[],[]]
-    series = [office,parks, boys, avatar]
 
+    movie_id=["ywe", "abc"]
+    movie_name=["Inglourius Basterds", "John Wick"]
+
+    series = [office,parks, boys, avatar, movie_id]
+
+    
     function set_serie(s){
         serie = s 
         
@@ -284,26 +291,51 @@
     }
 
     function set_season(s, t){
+        serie = s
         season = t
         chap_div = document.getElementById("chapter")
         chap_div.innerHTML = ""
 
         chap_div.innerHTML = "<br><h2>Season "+(season+1)+": Chapters</h2>"
-        s = series[s]
-        season_tot = s[t].length
-        i = 1
-        while (i <= season_tot){
-            click = "set_video("+serie+","+season+","+(i-1)+")" 
-            chap_div.innerHTML += "<span onclick="+click+">"+i+"</span>"
-            i++
+        xs = series[s]
+        if(serie != 4){
+            season_tot = xs[t].length
+            i = 1
+            while (i <= season_tot){
+                click = "set_video("+serie+","+season+","+(i-1)+")" 
+                chap_div.innerHTML += "<span onclick="+click+">"+i+"</span>"
+                i++
+            }
+        }else{
+            season_div = document.getElementById("season")
+            chap_div = document.getElementById("chapter")
+            season_div.innerHTML = ""
+            chap_div.innerHTML = ""
+            
+            movie_tot = xs.length
+            console.log(movie_tot,"lala ", xs)
+            i = 0
+            while (i < movie_tot){
+                click = "set_video("+serie+","+season+","+(i)+")" 
+                chap_div.innerHTML += "<span class='movies' onclick="+click+">"+movie_name[i]+"</span>"
+                i++
+            }
         }
+        
     }
 
     function set_video(s, t, c){
         video_div = document.getElementById("video")
         video_div.innerHTML = ""
-        video_div.innerHTML = "<h3>"+names[serie]+" Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
-        var cap = series[s][t][c]
+        
+        if(serie != 4){
+            video_div.innerHTML = "<h3>"+names[serie]+" Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
+            var cap = series[s][t][c]
+        }else{
+            video_div.innerHTML = "<h3>"+movie_name[c]+"</h3><br>"
+            var cap = movie_id[c]
+        }
+        
         if (cap[0] != "<"){
             link = 'https://drive.google.com/file/d/'+cap
             video_div.innerHTML += '<iframe src='+link+'/preview allow="fullscreen"></iframe>'    
@@ -311,6 +343,5 @@
             video_div.innerHTML += cap
         }
             
-       
     }
     </script>
