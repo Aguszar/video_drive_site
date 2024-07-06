@@ -364,11 +364,20 @@
     }
 
     function set_video(s, t, c){
+        chap = c
         video_div = document.getElementById("video")
         video_div.innerHTML = ""
         
         if(serie != 4){
-            video_div.innerHTML = "<h3>"+names[serie]+" Season "+(season+1)+" Chapter "+(c+1)+"</h3><br>"
+            video_div.innerHTML = "<h3>"+names[serie]+" Season "+(season+1)+" Chapter "+(c+1)+"</h3>"
+            next = "set_video("+serie+","+season+","+(chap+1)+")"
+            bef = "set_video("+serie+","+season+","+(chap-1)+")"
+            if (chap > 0){
+                video_div.innerHTML += "<span onclick="+bef+" > chapter before </span>"
+            } 
+            if (chap < series[s][t].length -1)
+            video_div.innerHTML += "<span onclick="+next+" > next chapter </span><br><br>"
+            
             var cap = series[s][t][c]
         }else{
             video_div.innerHTML = "<h3>"+movie_name[c]+"</h3><br>"
