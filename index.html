@@ -12,6 +12,7 @@
        <span onclick="set_serie(1)">Parks and Rec</span>
        <span onclick="set_serie(2)">The Boys</span>
        <span onclick="set_serie(3)">ATLA</span>
+       <span onclick="set_serie(5)">Regular Show</span>
        <span onclick="set_season(4,0)">Movies</span>
        
     </nav>
@@ -31,7 +32,7 @@
     chap   = null
 
     console.log(window.location.href)
-    names = ["The Office", "Parks & Rec", "The Boys", "Avatar: The last airbender"]
+    names = ["The Office", "Parks & Rec", "The Boys", "Avatar: The last airbender", "movie","regular show"]
     parks = [
         ["14EXF0UXHDsxbhsvamUpKXyi8qRPqYm-3", 
         "1Pjs20dSU4BFEd5Nam3HzXuT3sb0i1C77", 
@@ -349,7 +350,10 @@
                 "<iframe src='https://terabox.com/sharing/embed?surl=D3-JiSknXf_j_iGSXajJlA&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=523186392715521&slid=' allowfullscreen></iframe>",
                 "<iframe src='https://terabox.com/sharing/embed?surl=gYxYerAJBGnKDDVQNbOwsQ&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=16968920130155&slid=' allowfullscreen></iframe>"
                 ]
-                , [], []]
+                , 
+                [
+                " "
+                ], []]
 
     series = [office,parks, boys, avatar, movie_id, regular]
 
