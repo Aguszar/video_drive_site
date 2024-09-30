@@ -15,8 +15,12 @@ movie_id=[
     ,"<iframe src='https://mega.nz/embed/nzR3VAIA#W8XnRTZl3mfIMvPz-Kvw5tPzGW2BuwjlgbBhnskuhOo' allowfullscreen ></iframe>" // dead 2
     ,"<iframe src='https://mega.nz/embed/C3BWwCBB#w_bvhpG_J6pQrdF5XaFdGa72Viqj_xvndUzi6kdYMnk' allowfullscreen ></iframe>" // prince of egypt
     ,"<iframe src='https://mega.nz/embed/Sn5gECBb#I8ALSYKyJbQuYLRXCXZ5_g0nDJkucER6REuS8GCpUis' allowfullscreen ></iframe>" // shrek 1
-    ]
+    ,"<iframe src='https://terabox.com/sharing/embed?surl=PZeX2EqlOKS10ZL7CuNKGw&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=876330162364812&slid=' allowfullscreen></iframe>" // my cousin vinny
+    ,"<iframe src='https://terabox.com/sharing/embed?surl=AGbyf08G92FkY7tyCupK0A&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=194448470385188&slid=' allowfullscreen></iframe>" // pleasentville
+    ,"<iframe src='https://terabox.com/sharing/embed?surl=Te4PtGoqPZEIfqt2XKcAJw&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=669421472600065&slid=' allowfullscreen></iframe>"  // Rocky 
+
+]
 
 movie_name=["Barbarian","Inglourious Basterds", "Ice Age 2", "District 9", "Nacho Libre", "Shrek 2 (esp)", "Django Unchained",  
         "H.P and T.S.Stone", "H.P and T.C.o.S", "H.P & the Prisoner Akzaban", "H.P & Goblet Fire" ,"H.P & the Order of the phoenix", "H.P & half blood prince", "H.P & Deadly Hallows (1)","H.P & Deadly Hallows (2)"
-        ,"Prince of Egypt", "Shrek 1"]
+        ,"Prince of Egypt", "Shrek 1", "My cousin Vinny", "Pleasantville", "Rocky"]

@@ -11,6 +11,7 @@
     <script src="avatar.js"></script>
     <script src="regular.js"></script>
     <script src="movies.js"></script>
+    <script src="grv_falls.js"></script>
     
 </head>
 <body>
@@ -21,6 +22,7 @@
        <span onclick="set_serie(2)">The Boys</span>
        <span onclick="set_serie(3)">ATLA</span>
        <span onclick="set_serie(5)">Regular Show</span>
+       <span onclick="set_serie(6)">Gravity Falls</span>
        <span onclick="set_season(4,0)">Movies</span>
        
     </nav>
@@ -42,12 +44,12 @@
     
 
 
-    names = ["The Office", "Parks & Rec", "The Boys", "Avatar: The last airbender", "movie","regular show"]
+    names = ["The Office", "Parks & Rec", "The Boys", "Avatar: The last airbender", "movie","regular show", "Gravity Falls"]
     
     
     
-    series = [office,parks, boys, avatar, movie_id, regular]
-    console.log(office[1])
+    series = [office,parks, boys, avatar, movie_id, regular, gravity_falls]
+
     
     function set_serie(s){
         serie = s 
