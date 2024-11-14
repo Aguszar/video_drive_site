@@ -12,6 +12,8 @@
     <script src="regular.js"></script>
     <script src="movies.js"></script>
     <script src="grv_falls.js"></script>
+    <script src="simpson.js"></script>
+
     
 </head>
 <body>
@@ -23,6 +25,8 @@
        <span onclick="set_serie(3)">ATLA</span>
        <span onclick="set_serie(5)">Regular Show</span>
        <span onclick="set_serie(6)">Gravity Falls</span>
+       <span onclick="set_serie(7)">Los Simpson</span>
+
        <span onclick="set_season(4,0)">Movies</span>
        
     </nav>
@@ -44,11 +48,11 @@
     
 
 
-    names = ["The Office", "Parks & Rec", "The Boys", "Avatar: The last airbender", "movie","regular show", "Gravity Falls"]
+    names = ["The Office", "Parks & Rec", "The Boys", "Avatar: The last airbender", "movie","regular show", "Gravity Falls", "Los Simpson"]
     
     
     
-    series = [office,parks, boys, avatar, movie_id, regular, gravity_falls]
+    series = [office,parks, boys, avatar, movie_id, regular, gravity_falls, simpson]
 
     function random_episode(s){
         temporada = Math.floor(Math.random()*series[s].length)
