@@ -50,7 +50,13 @@
     
     series = [office,parks, boys, avatar, movie_id, regular, gravity_falls]
 
-    
+    function random_episode(s){
+        temporada = Math.floor(Math.random()*series[s].length)
+        capitulo =  Math.floor(Math.random()*series[s][temporada].length)
+        console.log(temporada, capitulo)
+        set_video(s, temporada, capitulo)
+    }
+
     function set_serie(s){
         serie = s 
         
@@ -60,6 +66,8 @@
         chap_div.innerHTML = ""
         
         season_div.innerHTML = "<h2>"+names[s]+"- Season</h2>"
+        season_div.innerHTML += "<span onclick='random_episode("+s+")'>random chap</span>"
+        
         serie_total = series[s].length
         i = 1
         while (i <= serie_total){
@@ -104,6 +112,8 @@
     }
 
     function set_video(s, t, c){
+        serie  = s
+        season = t
         chap = c
         video_div = document.getElementById("video")
         video_div.innerHTML = ""
@@ -156,6 +166,8 @@
         return "";
     }
       
+    
+
     function checkCookie() {
         let user = getCookie("username");
         if (user != "") {
