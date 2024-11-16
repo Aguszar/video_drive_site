@@ -127,10 +127,10 @@
             next = "set_video("+serie+","+season+","+(chap+1)+")"
             bef = "set_video("+serie+","+season+","+(chap-1)+")"
             if (chap > 0){
-                video_div.innerHTML += "<span onclick="+bef+" > chapter before </span>"
+                video_div.innerHTML += "<span onclick="+bef+" > <<< </span>"
             } 
             if (chap < series[s][t].length -1)
-            video_div.innerHTML += "<span onclick="+next+" > next chapter </span><br><br>"
+            video_div.innerHTML += "<span onclick="+next+" > >>> </span><br><br>"
             
             var cap = series[s][t][c]
         }else{

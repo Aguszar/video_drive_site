@@ -174,6 +174,5 @@ simpson = [
         ,"<iframe src='https://terabox.com/sharing/embed?surl=kwBOyP4NkVS_KiiwKJPufA&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=486801177948171&slid=' allowfullscreen></iframe>"
         /*24*/,"<iframe src='https://terabox.com/sharing/embed?surl=YMWSsBXpFfWrj1r7oVniDQ&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=1092191044901382&slid=' allowfullscreen></iframe>"
         ,"<iframe src='https://terabox.com/sharing/embed?surl=89S4UjcE74J9nvNwRmS1VA&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=243678009091467&slid=' allowfullscreen></iframe>"
-
     ]
 ]
