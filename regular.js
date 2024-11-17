@@ -91,5 +91,28 @@ regular = [
     "<iframe src='https://terabox.com/sharing/embed?surl=ujt007R2674st6h29ojRuA&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=856010934295645&slid=' allowfullscreen></iframe>" 
     ],
     [//s5 
-    
-    ]]
+        "<iframe src='https://terabox.com/sharing/embed?surl=AN4nHz6BxTnf9YBXftItmg&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=869693173055337&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=zmAdGkaU9qIT02IHNAdOcw&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=1091410650170592&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=VWDWPoE4tyRR1eOo4iVofA&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=194291931894592&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=bPMF1AFB4Poe1GdsCl3I0A&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=490984561013019&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=lUZRnHGrOuS0KsG0u5HNtg&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=836540420891824&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=F8z2wTf8PvIM_VWTpxQBuw&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=574557908555623&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=uma3cSsjwTEFQJhb0NRNZw&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=876509583910497&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=7KkKy8GRjTTP_nGKI5ZkEQ&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=481731436622247&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=Gw2_mnDck8rZnYgU6DoytQ&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=482557769069690&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=b0cefxfNmTGGwFAZvqgGAQ&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=206009017138877&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=ENNdg01E6QUlN5Nvywgpbw&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=7732616867749&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=1E431kMDUHIBrn8LKJtZPw&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=668702992994399&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=n1tjI8XKszdzec1a0wkH2A&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=1059447749497498&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=TqofWywo23068ONHyGJAZA&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=277046274966076&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=NuSwuCcG1IRbEha3c5GUmg&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=540666893841856&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=8yFfRZU8WVlx6A00_S8LcA&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=419986785912372&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=CuOV2CGH29AJDiOz8NK2nQ&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=931032532077866&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=liV8qN5K5pnxNG3iNXFj2w&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=903380457229477&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=lq5rlDr2znRxTSzqG-p4eA&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=559559371977546&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=aDCbm2n-hzgwHf6DDfxioQ&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=96045575710872&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=De0lteouIhAd6GC-2SsGIw&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=101730482229562&slid=' allowfullscreen></iframe>"
+        ,"<iframe src='https://terabox.com/sharing/embed?surl=Mh85zhAlJ7bLTBAf0DO0hQ&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=594647910085364&slid=' allowfullscreen></iframe>"
+    ],
+    []
+]
