@@ -23,4 +23,4 @@ movie_id=[
 
 movie_name=["Barbarian","Inglourious Basterds", "Ice Age 2", "District 9", "Nacho Libre", "Shrek 2 (esp)", "Django Unchained",  
         "H.P and T.S.Stone", "H.P and T.C.o.S", "H.P & the Prisoner Akzaban", "H.P & Goblet Fire" ,"H.P & the Order of the phoenix", "H.P & half blood prince", "H.P & Deadly Hallows (1)","H.P & Deadly Hallows (2)"
-        ,"Prince of Egypt", "Shrek 1", "My cousin Vinny", "Pleasantville", "Rocky"]
+        ,"Prince of Egypt", "Shrek 1 (esp)", "My cousin Vinny", "Pleasantville", "Rocky"]
