@@ -18,9 +18,12 @@ movie_id=[
     ,"<iframe src='https://terabox.com/sharing/embed?surl=PZeX2EqlOKS10ZL7CuNKGw&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=876330162364812&slid=' allowfullscreen></iframe>" // my cousin vinny
     ,"<iframe src='https://terabox.com/sharing/embed?surl=AGbyf08G92FkY7tyCupK0A&resolution=1080&autoplay=true&mute=false&uk=4401448085563&fid=194448470385188&slid=' allowfullscreen></iframe>" // pleasentville
     ,"<iframe src='https://terabox.com/sharing/embed?surl=Te4PtGoqPZEIfqt2XKcAJw&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=669421472600065&slid=' allowfullscreen></iframe>"  // Rocky 
-    ,"<iframe src='https://mega.nz/embed/bqAHUCDb#MlF_3Z-O1QInhKWtMCY8aopsDJqpdSpuYXlSEEB62rA' allowfullscreen ></iframe>" // metegol
+    ,"<iframe src='htps://mega.nz/embed/bqAHUCDb#MlF_3Z-O1QInhKWtMCY8aopsDJqpdSpuYXlSEEB62rA' allowfullscreen ></iframe>" // metegol
+    ,"<iframe src='https://terabox.com/sharing/embed?surl=du1Gk_kxxfo-XSkFgq_eEg&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=866958939395770&slid=' allowfullscreen></iframe>" // spiderman 1 2002
+    ,"<iframe src='https://terabox.com/sharing/embed?surl=KwdHWprL46jJwZtuH1XLTQ&resolution=720&autoplay=true&mute=false&uk=4401448085563&fid=211912439592749&slid=' allowfullscreen></iframe>" // Schindlers List
+
 ]
 
 movie_name=["Barbarian","Inglourious Basterds", "Ice Age 2", "District 9", "Nacho Libre", "Shrek 2 (esp)", "Django Unchained",  
         "H.P and T.S.Stone", "H.P and T.C.o.S", "H.P & the Prisoner Akzaban", "H.P & Goblet Fire" ,"H.P & the Order of the phoenix", "H.P & half blood prince", "H.P & Deadly Hallows (1)","H.P & Deadly Hallows (2)"
-        ,"Prince of Egypt", "Shrek 1 (esp)", "My cousin Vinny", "Pleasantville", "Rocky", " Metegol"]
+        ,"Prince of Egypt", "Shrek 1 (esp)", "My cousin Vinny", "Pleasantville", "Rocky", " Metegol", "SpiderMan (2002)", "Schindler's List"]
