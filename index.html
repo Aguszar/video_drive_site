@@ -28,6 +28,7 @@
        <span onclick="set_serie(7)">Los Simpson</span>
 
        <span onclick="set_season(4,0)">Movies</span>
+       <span onclick="set_season(8,0)">Peliculas</span>
        
     </nav>
     
@@ -52,7 +53,7 @@
     
     
     
-    series = [office,parks, boys, avatar, movie_id, regular, gravity_falls, simpson]
+    series = [office,parks, boys, avatar, movie_id, regular, gravity_falls, simpson, peli_id]
 
     function random_episode(s){
         temporada = Math.floor(Math.random()*series[s].length)
@@ -89,7 +90,7 @@
 
         chap_div.innerHTML = "<br><h2>Season "+(season+1)+": Chapters</h2>"
         xs = series[s]
-        if(serie != 4){
+        if(serie != 4 && serie != 8){
             season_tot = xs[t].length
             i = 1
             while (i <= season_tot){
@@ -107,8 +108,13 @@
             console.log(movie_tot,"lala ", xs)
             i = 0
             while (i < movie_tot){
-                click = "set_video("+serie+","+season+","+(i)+")" 
-                chap_div.innerHTML += "<span class='movies' onclick="+click+">"+movie_name[i]+"</span>"
+                click = "set_video("+serie+","+season+","+(i)+")"
+                if (serie ==4){
+                    chap_div.innerHTML += "<span class='movies' onclick="+click+">"+movie_name[i]+"</span>"
+                }else{
+                    chap_div.innerHTML += "<span class='movies' onclick="+click+">"+peli_nombre[i]+"</span>"
+                }
+                
                 i++
             }
         }
@@ -122,7 +128,7 @@
         video_div = document.getElementById("video")
         video_div.innerHTML = ""
         
-        if(serie != 4){
+        if(serie != 4 && serie !=8){
             video_div.innerHTML = "<h3>"+names[serie]+" Season "+(season+1)+" Chapter "+(c+1)+"</h3>"
             next = "set_video("+serie+","+season+","+(chap+1)+")"
             bef = "set_video("+serie+","+season+","+(chap-1)+")"
@@ -134,8 +140,15 @@
             
             var cap = series[s][t][c]
         }else{
-            video_div.innerHTML = "<h3>"+movie_name[c]+"</h3><br>"
             var cap = movie_id[c]
+            if(serie==4){
+                video_div.innerHTML = "<h3>"+movie_name[c]+"</h3><br>"
+            }else{
+                video_div.innerHTML = "<h3>"+peli_nombre[c]+"</h3><br>"
+                cap = peli_id[c]
+            }
+            
+            
         }
         
         if (cap[0] != "<"){
