@@ -21,7 +21,7 @@
     <nav>
        <span onclick="set_serie(0)">The Office</span>
        <span onclick="set_serie(1)">Parks and Rec</span>
-       <span onclick="set_serie(2)">The Boys</span>
+       <span hidden="true" onclick="set_serie(2)">The Boys</span>
        <span onclick="set_serie(3)">ATLA</span>
        <span onclick="set_serie(5)">Regular Show</span>
        <span onclick="set_serie(6)">Gravity Falls</span>
@@ -37,11 +37,20 @@
     <div id="season"></div>
     <div id="chapter"></div>
     <div id="video"></div>
+
+    <div id="secret" onclick="secret()"></div>
     
 </body>
 </html>
 
 <script>
+    function secret(){
+        spans = document.getElementsByTagName("span")
+        for(let i = 0; i < spans.length; i++){
+            if(spans[i].hidden)
+            spans[i].hidden = false
+        }
+    }
 
     serie  = null
     season = null

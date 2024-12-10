@@ -1,10 +1,10 @@
 movie_id=[
-    "<iframe src='https://mega.nz/embed/kadTRbaD#7cdCCj9NyPb2I9JLrsa0GSJscAh7VBXd4AtZa4tztYM' allowfullscreen ></iframe>",        
-    "<iframe src='https://mega.nz/embed/MOlwlbQS#0E3o-96MPtodbn3iG3qpy7z6XbqtJrf2aWMf_m-7zI0' allowfullscreen ></iframe>",
-    "<iframe src='https://mega.nz/embed/aGwWmbQK#sD7X3pS7MzwzR9mFWSf59e4r7hvmrlQocfp7HseDRms' allowfullscreen ></iframe>",
-    "<iframe src='https://mega.nz/embed/ResQBBxI#qYCOVnRQABZtL42LjegPJ13Vu6UoehIo3rKUgj4oaiA' allowfullscreen ></iframe>",
-    "1qWz5BVAExV8piQAGkGLgVI9XoIRhryeh" ,
-    "<iframe src='https://mega.nz/embed/FD8VXT6R#BeuT2q7nX--mOLOW3mXm11TzysDPP8MyrbYYOan3hqU' allowfullscreen ></iframe>",
+    "<iframe src='https://mega.nz/embed/kadTRbaD#7cdCCj9NyPb2I9JLrsa0GSJscAh7VBXd4AtZa4tztYM' allowfullscreen ></iframe>", //barbarian        
+    "<iframe src='https://mega.nz/embed/MOlwlbQS#0E3o-96MPtodbn3iG3qpy7z6XbqtJrf2aWMf_m-7zI0' allowfullscreen ></iframe>", // basterds
+    "<iframe src='https://mega.nz/embed/aGwWmbQK#sD7X3pS7MzwzR9mFWSf59e4r7hvmrlQocfp7HseDRms' allowfullscreen ></iframe>", // ice 2
+    "<iframe src='https://mega.nz/embed/ResQBBxI#qYCOVnRQABZtL42LjegPJ13Vu6UoehIo3rKUgj4oaiA' allowfullscreen ></iframe>", // district 9 
+    "1qWz5BVAExV8piQAGkGLgVI9XoIRhryeh" , // nacho libre
+    "<iframe src='https://mega.nz/embed/FD8VXT6R#BeuT2q7nX--mOLOW3mXm11TzysDPP8MyrbYYOan3hqU' allowfullscreen ></iframe>", // 
     "<iframe src='https://mega.nz/embed/5bdnVZ7D#8NLbEXSTR_saWZQ0eVjMAAtNUxaPYbFTX80wIr6zhxQ' allowfullscreen ></iframe>", // stone
     "<iframe src='https://mega.nz/embed/0DcQ1S6C#FHO8noTkRsE-38CV8jI_I9F8FLswCw0rsfzdCAFc0dI' allowfullscreen ></iframe>" // secrets
     ,"<iframe src='https://mega.nz/embed/pCUEGLrA#D80l1NerPqzcquxRx_9E-uzvIcqzv5Lu5XFjdewNgKw' allowfullscreen ></iframe>" // azkaban
@@ -23,7 +23,7 @@ movie_id=[
 ]
 
 
-movie_name=["Barbarian","Inglourious Basterds", "Ice Age 2", "District 9", "Nacho Libre", , "Django Unchained",  
+movie_name=["Barbarian","Inglourious Basterds", "Ice Age 2", "District 9", "Nacho Libre",  "Django Unchained",  
         "H.P and T.S.Stone", "H.P and T.C.o.S", "H.P & the Prisoner Akzaban", "H.P & Goblet Fire" ,"H.P & the Order of the phoenix", "H.P & half blood prince", "H.P & Deadly Hallows (1)","H.P & Deadly Hallows (2)"
         ,"Prince of Egypt", "My cousin Vinny", "Pleasantville", "Rocky", "SpiderMan (2002)", "Schindler's List", "White Chicks"]
 

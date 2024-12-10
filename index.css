@@ -21,7 +21,8 @@ nav a, span{
     text-decoration: none;
     margin: 1px;
 }
-nav a:hover,span:hover {
+
+nav a:hover,span:hover, #secret:hover {
     background-color:burlywood;
     cursor: pointer;
 }
@@ -30,4 +31,17 @@ iframe, video{
     width: 100%;
     height: 400px;
 
+}
+#secret{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    height: 40px;
+    background-color:burlywood;
+    float: left;
+}
+#secret:hover{
+    background-color:coral;
+    cursor: pointer;
 }
